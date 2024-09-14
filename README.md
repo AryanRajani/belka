@@ -15,4 +15,5 @@ Following are the training settings used:
 - Optimizer : Adam
 - Metric : AUC Curve for average precision (AP)
 - Stratified K-Fold
-- Scheduler : Reduce LR on Plateau 
+- Scheduler : Reduce LR on Plateau
+- Accelerator : TPU Backend (used 8 TPU Cores)
